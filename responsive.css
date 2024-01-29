@@ -1,0 +1,44 @@
+@media (max-width: 600px) {
+  header {
+    padding: 30px;
+  }
+  .hamburger {
+    display: block;
+  }
+  header span {
+    display: none;
+    margin-right: 0;
+  }
+  .wrapper {
+    width: 100%;
+    padding: 30px;
+  }
+  .navbar {
+    display: none;
+  }
+  .weekly-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .curate-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .access-content {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .wrapper-signup {
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+}

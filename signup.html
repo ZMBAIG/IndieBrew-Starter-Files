@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./Assets/Logo.svg" alt="Logo" />
+      <nav class="back-to-homepage">
+        <a href="./index.html"><i class="fa fa-angle-left"></i> </a
+        ><span> Back to homepage</span>
+
+        <div>
+          <img
+            class="hamburger"
+            src="./Assets/Hamburger Menu.svg"
+            alt="Hamburger Menu"
+          />
+        </div>
+      </nav>
+    </header>
+    <main class="wrapper-signup">
+      <section class="personal-feed-content">
+        <article class="sub-personal-feed-content">
+          <h1>Create your personalized feed.</h1>
+          <p>
+            🎈
+            <strong>Over 20 resources.</strong>
+            With resources ranging from Reddit to IndieHackers, we've got all
+            our needs covered.
+          </p>
+        </article>
+        <article>
+          <p>
+            📅
+            <strong>Delivered weekly.</strong> Every week at exactly Tuesday
+            12:00 PM EST - expect a value-packed digest right in your email.
+          </p>
+        </article>
+        <article>
+          <p>
+            💡
+            <strong>Unlimited ideas.</strong>
+            With all the ideas you'll be reading about, what's stopping you from
+            creating a sustainable startup?
+          </p>
+        </article>
+      </section>
+      <section>
+        <form class="create-an-account" action="#">
+          <h3>Create your IndieBrew Account</h3>
+          <label for="email">Email</label>
+          <input
+            required
+            type="email"
+            id="email"
+            name="email"
+            placeholder="john@example.com"
+          />
+          <label for="name">Full Name</label>
+          <input
+            required
+            type="text"
+            id="name"
+            name="fname"
+            placeholder="John Doe"
+          />
+          <label for="email">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="At least 8 characters"
+          />
+          <p>
+            <input required type="checkbox" />
+            By creating an account on IndieBrew, you agree to the
+            <a href="#"> Terms and Conditions.</a>
+          </p>
+          <input
+            class="btn-get-started"
+            required
+            type="submit"
+            value="Create an Account"
+          />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
